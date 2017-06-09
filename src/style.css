@@ -1,0 +1,65 @@
+div.header {
+  background: white;
+  overflow: hidden; }
+  div.header h2 {
+    font-family: Cursive;
+    margin-left: 10%; }
+  div.header h3 {
+    font-family: Cursive;
+    margin-left: 10%; }
+  div.header ul {
+    margin-left: 40%;
+    display: flex; }
+  div.header li {
+    list-style: none;
+    margin-left: 5%; }
+  div.header img {
+    width: 10%;
+    margin-left: 80%;
+    position: absolute;
+    margin-top: -10%; }
+  div.header a {
+    text-decoration: underline;
+    color: #a00; }
+  div.header a:visited {
+    color: #844; }
+  div.header a:hover, div.header a:focus, div.header a:active {
+    text-decoration: none;
+    color: white;
+    background: #800; }
+
+div.competence {
+  background: white;
+  text-align: center; }
+  div.competence .container {
+    display: flex; }
+  div.competence h4 {
+    margin-left: 40%; }
+  div.competence ul {
+    margin-left: 40%; }
+  div.competence div {
+    margin-left: 10%; }
+  div.competence li {
+    list-style: none; }
+  div.competence div.Transversales {
+    display: flex; }
+    div.competence div.Transversales ul {
+      margin-left: 20%; }
+
+footer {
+  display: flex;
+  background-color: white; }
+  footer p {
+    margin-left: 10%; }
+  footer div {
+    margin-left: 60%; }
+    footer div img {
+      width: 30%; }
+
+body {
+  font-size: 18px;
+  margin: 0;
+  width: 100%;
+  background-color: white; }
+
+/*# sourceMappingURL=style.css.map */

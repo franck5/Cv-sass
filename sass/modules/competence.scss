@@ -1,0 +1,35 @@
+div.competence{
+	background : $secondary-color;
+	text-align: center;
+
+	.container{
+
+		display: flex;
+	}
+	h4{
+		margin-left: 40%;
+
+	};
+	ul{
+   		margin-left: 40%;
+		
+  	}
+  
+  	div{
+  		margin-left: 10%;
+  	}
+	
+	li{
+		list-style:none;
+
+	}
+
+	div.Transversales{
+		display: flex;
+		ul{
+   		margin-left: 20%;
+		
+  	}
+	}
+
+}

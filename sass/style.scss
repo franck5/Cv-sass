@@ -1,0 +1,12 @@
+@import 'modules/variable';
+@import 'modules/header';
+@import 'modules/competence';
+@import 'modules/footer';
+
+body {
+	
+	font-size : 18px;
+	margin: 0;
+	width: 100%;
+	background-color: $primary-color;
+}

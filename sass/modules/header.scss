@@ -1,0 +1,38 @@
+div.header {
+  background : $primary-color;
+  overflow : hidden;
+  h2{
+    font-family : Cursive;
+    margin-left : 10%;
+  }
+  h3{
+    font-family : Cursive;
+    margin-left : 10%;
+  }
+  ul{
+    margin-left: 40%;
+  display: flex;
+  }
+  li{
+    list-style:none;
+    margin-left: 5%;
+  }
+  img{
+    width : 10%;
+    margin-left : 80%;
+    position : absolute;
+    margin-top : -10%;
+   } 
+   a {
+  text-decoration: underline;
+  color: #a00;
+  }
+  a:visited {
+    color: #844;
+  }
+  a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+    background: #800;
+  }
+}
