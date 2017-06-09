@@ -1,13 +1,14 @@
 div.header {
-  background : $primary-color;
   overflow : hidden;
   h2{
     font-family : Cursive;
     margin-left : 10%;
+    color: $secondary-color;
   }
   h3{
     font-family : Cursive;
     margin-left : 10%;
+    color: $primary-color;
   }
   ul{
     margin-left: 40%;

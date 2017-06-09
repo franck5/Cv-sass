@@ -1,13 +1,15 @@
 footer{
 	display: flex;
-	background-color: $primary-color;
-	p{
+	
+	a{
 		margin-left: 10%;
+		margin-top: 2%;
 	}
 	div{
 		margin-left: 60%;
 		img{
 			width: 30%;
+			margin-top: 15%;
 		}
 	}
 

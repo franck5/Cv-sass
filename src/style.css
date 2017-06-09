@@ -1,12 +1,13 @@
 div.header {
-  background: white;
   overflow: hidden; }
   div.header h2 {
     font-family: Cursive;
-    margin-left: 10%; }
+    margin-left: 10%;
+    color: #9999ff; }
   div.header h3 {
     font-family: Cursive;
-    margin-left: 10%; }
+    margin-left: 10%;
+    color: #b3b3ff; }
   div.header ul {
     margin-left: 40%;
     display: flex; }
@@ -29,37 +30,43 @@ div.header {
     background: #800; }
 
 div.competence {
-  background: white;
   text-align: center; }
+  div.competence h2 {
+    color: #9999ff;
+    font-family: Helvetica; }
   div.competence .container {
     display: flex; }
   div.competence h4 {
-    margin-left: 40%; }
+    margin-left: 40%;
+    color: #d28561; }
   div.competence ul {
-    margin-left: 40%; }
+    margin-left: 40%;
+    color: red; }
   div.competence div {
     margin-left: 10%; }
   div.competence li {
     list-style: none; }
+    div.competence li img {
+      width: 35%; }
   div.competence div.Transversales {
     display: flex; }
     div.competence div.Transversales ul {
       margin-left: 20%; }
 
 footer {
-  display: flex;
-  background-color: white; }
-  footer p {
-    margin-left: 10%; }
+  display: flex; }
+  footer a {
+    margin-left: 10%;
+    margin-top: 2%; }
   footer div {
     margin-left: 60%; }
     footer div img {
-      width: 30%; }
+      width: 30%;
+      margin-top: 15%; }
 
 body {
   font-size: 18px;
   margin: 0;
-  width: 100%;
-  background-color: white; }
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

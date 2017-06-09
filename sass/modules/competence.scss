@@ -1,6 +1,12 @@
 div.competence{
-	background : $secondary-color;
+	
 	text-align: center;
+
+	h2{
+
+	color: $secondary-color;
+	font-family: Helvetica;
+	}
 
 	.container{
 
@@ -9,9 +15,12 @@ div.competence{
 	h4{
 		margin-left: 40%;
 
+		color: $skill-color;
+
 	};
 	ul{
    		margin-left: 40%;
+   		color: red;
 		
   	}
   
@@ -21,6 +30,12 @@ div.competence{
 	
 	li{
 		list-style:none;
+		
+	img{
+		width: 35%;
+		
+	}
+	
 
 	}
 
