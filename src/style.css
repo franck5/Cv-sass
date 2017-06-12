@@ -40,8 +40,7 @@ div.competence {
     margin-left: 40%;
     color: #d28561; }
   div.competence ul {
-    margin-left: 40%;
-    color: red; }
+    margin-left: 40%; }
   div.competence div {
     margin-left: 10%; }
   div.competence li {
@@ -67,6 +66,9 @@ footer {
 body {
   font-size: 18px;
   margin: 0;
-  width: 100%; }
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  box-sizing: border-box; }
 
 /*# sourceMappingURL=style.css.map */
